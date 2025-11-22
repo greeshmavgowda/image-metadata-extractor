@@ -7,7 +7,7 @@ on:
     branches: [ master ]
 
 env:
-  IMAGE: yourdockerid/image-metadata-extractor
+  IMAGE: greeshmavg/image-metadata-extractor
 
 jobs:
   test:
