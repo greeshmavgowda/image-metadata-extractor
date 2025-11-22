@@ -1,22 +1,23 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 <head>
-    <title>Image Metadata Extractor</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Image Metadata Extractor</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Upload Image to Extract Metadata</h1>
-
-```
-<form action="/upload" method="post" enctype="multipart/form-data">
-    <input type="file" name="image" required>
+  <h1>Upload Image for Metadata</h1>
+  
+  <form id="uploadForm">
+    <input type="file" id="fileInput" name="file" required />
     <button type="submit">Upload</button>
-</form>
+  </form>
 
-<div id="result">
-</div>
-```
+  <div id="loading" class="hidden">Processing...</div>
 
+  <div id="summary" class="hidden"></div>
+  <div id="detailedSections" class="hidden"></div>
+
+  <script src="main.js"></script>
 </body>
 </html>
