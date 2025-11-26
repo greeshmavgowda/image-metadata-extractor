@@ -97,7 +97,7 @@ function renderDetails(data) {
       "Make", "Model", "Lens Model", "Software", "Firmware Version"
     ],
     "Exposure Settings": [
-      "ISO", "Aperture", "Shutter Speed", "Focal Length", "ExposureMode", "WhiteBalance"
+      "ISO", "Aperture", "Shutter Speed", "Focal Length", "Exposure Mode", "White Balance"
     ],
     "Temperature & Hardware": [
       "Shutter Count", "Ambient Temperature", "Battery Level"

@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6fa;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    margin: 20px auto;
+    width: 350px;
+    text-align: center;
+}
+
+button {
+    background: #0078ff;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+button:hover {
+    background: #0056cc;
+}
+
+.card {
+    background: white;
+    width: 700px;
+    margin: 20px auto;
+    padding: 18px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.hidden {
+    display: none;
+}
+
+.data-grid {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    gap: 6px 10px;
+}
+
+.section-title {
+    font-size: 18px;
+    margin-bottom: 8px;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+}
+
+#result {
+    margin-top: 30px;
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+}
